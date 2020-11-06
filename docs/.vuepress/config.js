@@ -151,7 +151,15 @@ module.exports = {
                 title: "Theming",
                 collapsable: true,
                 children: [
-                    "/theming/design-tokens.html"
+                    "/theming/design-tokens.html",
+                    {
+                        title: 'Containers',
+                        path: "/theming/containers.html"
+                    },
+                    {
+                        title: 'Fonts',
+                        path: "/theming/fonts.html"
+                    },
                     // "/theming/customizing-components.html"
                 ]
             }
