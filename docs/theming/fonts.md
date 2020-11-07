@@ -36,7 +36,7 @@ This actually controls a lot more that just the font size. Most of the sizing an
 
 ### Usage
 
-This really only should be used once on the `body` element. Updating the token in SASS will automatically update the CSS variable.
+This really only should be used _once_ on the `body` element. Updating the token in SASS will automatically update the CSS variable.
 
 ```css
 html,
@@ -55,7 +55,7 @@ For performance reasons, the default values that have been set for these variabl
 | --------- | ------------------------------------------ |
 | Accent    | This is primarily used for things like headings or blockquotes. This should help those pieces of your design stand out from the rest of your content.                                                               |
 | Base      | This is the default font for your site. If it is not text that should stand out more than other text, it should be using this font. This font should be simple and easy to read at both large and small font sizes. |
-| Monospace (optional) | If you are creating a tutorial site that has code snippets or special call-out text, this font is an excellent way to help highlight those parts of your application. This is an _optional_ font and most sites will not need it, so  it is recommended that you avoid using unless you truly need it.                                           |
+| Monospace (optional) | If you are creating a tutorial site that has code snippets or special call-out text, this font is an excellent way to help highlight those parts of your application. This is an _optional_ font and most sites will not need it.                                           |
 
 ```scss
 $fonts: (
@@ -130,3 +130,26 @@ $font-sizes: (
 
 ### Usage
 
+#### SASS
+
+```scss
+// signature - font-size($size, $important: false)
+// returns   - font-size: {selected font-size CSS variable} !important (if set to "true")
+
+h1 {
+    @include font-size(xxl);
+}
+
+// this will add the `!important` attribute to the rule
+.text-xxs {
+    @include font-size(xxs, true);
+}
+```
+
+#### CSS
+
+```css
+p {
+    font-size: var(--ks-font-size-sm);
+}
+```
