@@ -160,6 +160,10 @@ module.exports = {
                         title: 'Fonts',
                         path: "/theming/fonts.html"
                     },
+                    {
+                        title: 'Spacing',
+                        path: "/theming/spacing.html"
+                    },
                     // "/theming/customizing-components.html"
                 ]
             }
