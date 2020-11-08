@@ -164,6 +164,14 @@ module.exports = {
                         title: 'Spacing',
                         path: "/theming/spacing.html"
                     },
+                    {
+                        title: 'Colors',
+                        path: "/theming/colors.html"
+                    },
+                    {
+                        title: 'Media Queries',
+                        path: "/theming/media-queries.html"
+                    },
                     // "/theming/customizing-components.html"
                 ]
             }
