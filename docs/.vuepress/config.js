@@ -137,6 +137,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     "/utilities/borders.html",
+                    "/utilities/border-radiuses.html",
                     "/utilities/colors.html",
                     "/utilities/display.html",
                     "/utilities/layout.html",
@@ -151,8 +152,55 @@ module.exports = {
                 title: "Theming",
                 collapsable: true,
                 children: [
-                    "/theming/design-tokens.html"
-                    // "/theming/customizing-components.html"
+                    "/theming/design-tokens.html",
+                    {
+                        title: 'Border Radiuses',
+                        path: "/theming/border-radiuses.html"
+                    },
+                    {
+                        title: 'Borders',
+                        path: "/theming/borders.html"
+                    },
+                    {
+                        title: 'Colors',
+                        path: "/theming/colors.html"
+                    },
+                    {
+                        title: 'Containers',
+                        path: "/theming/containers.html"
+                    },
+                    {
+                        title: 'Fonts',
+                        path: "/theming/fonts.html"
+                    },
+                    {
+                        title: 'Media Queries',
+                        path: "/theming/media-queries.html"
+                    },
+                    {
+                        title: 'Outline',
+                        path: "/theming/outline.html"
+                    },
+                    {
+                        title: 'Responsive Embed',
+                        path: "/theming/responsive-embed.html"
+                    },
+                    {
+                        title: 'Shadows',
+                        path: "/theming/shadows.html"
+                    },
+                    {
+                        title: 'Spacing',
+                        path: "/theming/spacing.html"
+                    },
+                    {
+                        title: 'Transitions',
+                        path: "/theming/transitions.html"
+                    },
+                    {
+                        title: 'Z-Indexes',
+                        path: "/theming/z-index.html"
+                    },
                 ]
             }
         ]
