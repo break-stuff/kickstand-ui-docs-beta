@@ -4,7 +4,7 @@
     "meta": [
         {
             "property": "og:title",
-            "content": "Design Tokens - Kickstand UI"
+            "content": "Color Design Tokens - Kickstand UI"
         },
         {
             "property": "og:description",

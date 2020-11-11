@@ -137,6 +137,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     "/utilities/borders.html",
+                    "/utilities/border-radiuses.html",
                     "/utilities/colors.html",
                     "/utilities/display.html",
                     "/utilities/layout.html",
@@ -153,6 +154,18 @@ module.exports = {
                 children: [
                     "/theming/design-tokens.html",
                     {
+                        title: 'Border Radiuses',
+                        path: "/theming/border-radiuses.html"
+                    },
+                    {
+                        title: 'Borders',
+                        path: "/theming/borders.html"
+                    },
+                    {
+                        title: 'Colors',
+                        path: "/theming/colors.html"
+                    },
+                    {
                         title: 'Containers',
                         path: "/theming/containers.html"
                     },
@@ -161,18 +174,33 @@ module.exports = {
                         path: "/theming/fonts.html"
                     },
                     {
+                        title: 'Media Queries',
+                        path: "/theming/media-queries.html"
+                    },
+                    {
+                        title: 'Outline',
+                        path: "/theming/outline.html"
+                    },
+                    {
+                        title: 'Responsive Embed',
+                        path: "/theming/responsive-embed.html"
+                    },
+                    {
+                        title: 'Shadows',
+                        path: "/theming/shadows.html"
+                    },
+                    {
                         title: 'Spacing',
                         path: "/theming/spacing.html"
                     },
                     {
-                        title: 'Colors',
-                        path: "/theming/colors.html"
+                        title: 'Transitions',
+                        path: "/theming/transitions.html"
                     },
                     {
-                        title: 'Media Queries',
-                        path: "/theming/media-queries.html"
+                        title: 'Z-Indexes',
+                        path: "/theming/z-index.html"
                     },
-                    // "/theming/customizing-components.html"
                 ]
             }
         ]

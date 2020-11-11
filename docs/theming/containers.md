@@ -4,7 +4,7 @@
     "meta": [
         {
             "property": "og:title",
-            "content": "Container Tokens - Kickstand UI"
+            "content": "Container Design Tokens - Kickstand UI"
         },
         {
             "property": "og:description",

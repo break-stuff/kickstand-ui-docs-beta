@@ -4,7 +4,7 @@
     "meta": [
         {
             "property": "og:title",
-            "content": "Design Tokens - Kickstand UI"
+            "content": "Media Query Design Tokens - Kickstand UI"
         },
         {
             "property": "og:description",
@@ -31,7 +31,7 @@ $media-queries: (
     light-mode: light,
     dark-mode: dark,
     print: print,
-) !default;
+);
 ```
 
 :::tip NOTE
@@ -39,6 +39,8 @@ Unfortunately, CSS variables are not supported as media query values at this tim
 :::
 
 ## Usage
+
+### SASS
 
 In your style sheets:
 
@@ -61,6 +63,8 @@ In your style sheets:
 ```
 
 In your markup, all of the responsive utility classes are prefixed with the media query size, followed my a colon (`:`), and finally the utility class - `{media query}:{utility class}`.
+
+### Utility Classes
 
 ```html
 <div class="my-component w-25 md:w-50 xs:w-100 print:hide">...</div>

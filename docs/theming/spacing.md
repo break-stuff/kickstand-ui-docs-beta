@@ -1,6 +1,6 @@
 ---
 {
-    "description": "Information on Kickstand UI's Font Design Tokens",
+    "description": "Information on Kickstand UI's Spacing Design Tokens",
     "meta": [
         {
             "property": "og:title",
@@ -8,7 +8,7 @@
         },
         {
             "property": "og:description",
-            "content": "Information on Kickstand UI's Font Design Tokens"
+            "content": "Information on Kickstand UI's Spacing Design Tokens"
         }
     ]
 }
