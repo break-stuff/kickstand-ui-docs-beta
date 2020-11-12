@@ -104,8 +104,6 @@ module.exports = {
                     "/components/card.html",
                     "/components/carousel.html",
                     "/components/dropdown.html",
-                    "/components/form.html",
-                    "/components/form-field.html",
                     "/components/gallery.html",
                     "/components/icons.html",
                     "/components/images.html",
@@ -122,11 +120,29 @@ module.exports = {
                     "/components/tooltip.html"
                 ]
             },
-            // {
-            //     title: "Content",
-            //     collapsable: true,
-            //     children: []
-            // },
+            {
+                title: "Forms",
+                collapsable: true,
+                children: [
+                    "/forms/form.html",
+                    "/forms/form-field.html",
+                    "/forms/autocomplete.html",
+                    "/forms/checkbox.html",
+                    "/forms/checklist.html",
+                    "/forms/color.html",
+                    "/forms/datalist.html",
+                    "/forms/date.html",
+                    "/forms/email.html",
+                    "/forms/number.html",
+                    "/forms/password.html",
+                    "/forms/radiolist.html",
+                    "/forms/range.html",
+                    "/forms/select.html",
+                    "/forms/telephone.html",
+                    "/forms/text.html",
+                    "/forms/textarea.html"
+                ]
+            },
             {
                 title: "Layout",
                 collapsable: true,
@@ -149,57 +165,57 @@ module.exports = {
                 ]
             },
             {
-                title: "Theming",
+                title: "Design Tokens",
                 collapsable: true,
                 children: [
-                    "/theming/design-tokens.html",
+                    "/design-tokens/design-tokens.html",
                     {
                         title: 'Border Radiuses',
-                        path: "/theming/border-radiuses.html"
+                        path: "/design-tokens/border-radiuses.html"
                     },
                     {
                         title: 'Borders',
-                        path: "/theming/borders.html"
+                        path: "/design-tokens/borders.html"
                     },
                     {
                         title: 'Colors',
-                        path: "/theming/colors.html"
+                        path: "/design-tokens/colors.html"
                     },
                     {
                         title: 'Containers',
-                        path: "/theming/containers.html"
+                        path: "/design-tokens/containers.html"
                     },
                     {
                         title: 'Fonts',
-                        path: "/theming/fonts.html"
+                        path: "/design-tokens/fonts.html"
                     },
                     {
                         title: 'Media Queries',
-                        path: "/theming/media-queries.html"
+                        path: "/design-tokens/media-queries.html"
                     },
                     {
                         title: 'Outline',
-                        path: "/theming/outline.html"
+                        path: "/design-tokens/outline.html"
                     },
                     {
                         title: 'Responsive Embed',
-                        path: "/theming/responsive-embed.html"
+                        path: "/design-tokens/responsive-embed.html"
                     },
                     {
                         title: 'Shadows',
-                        path: "/theming/shadows.html"
+                        path: "/design-tokens/shadows.html"
                     },
                     {
                         title: 'Spacing',
-                        path: "/theming/spacing.html"
+                        path: "/design-tokens/spacing.html"
                     },
                     {
                         title: 'Transitions',
-                        path: "/theming/transitions.html"
+                        path: "/design-tokens/transitions.html"
                     },
                     {
                         title: 'Z-Indexes',
-                        path: "/theming/z-index.html"
+                        path: "/design-tokens/z-index.html"
                     },
                 ]
             }
