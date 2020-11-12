@@ -22,7 +22,7 @@ Design tokens are the basic building blocks of your application and form the fou
 
 There are two ways to customize your design tokens:
 
-1. SASS Variables
+1. SASS Variables (recommended)
 2. CSS Variables
 
 ### SASS
