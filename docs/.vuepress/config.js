@@ -104,8 +104,6 @@ module.exports = {
                     "/components/card.html",
                     "/components/carousel.html",
                     "/components/dropdown.html",
-                    "/components/form.html",
-                    "/components/form-field.html",
                     "/components/gallery.html",
                     "/components/icons.html",
                     "/components/images.html",
@@ -122,11 +120,29 @@ module.exports = {
                     "/components/tooltip.html"
                 ]
             },
-            // {
-            //     title: "Content",
-            //     collapsable: true,
-            //     children: []
-            // },
+            {
+                title: "Forms",
+                collapsable: true,
+                children: [
+                    "/forms/form.html",
+                    "/forms/form-field.html",
+                    "/forms/autocomplete.html",
+                    "/forms/checkbox.html",
+                    "/forms/checklist.html",
+                    "/forms/color.html",
+                    "/forms/datalist.html",
+                    "/forms/date.html",
+                    "/forms/email.html",
+                    "/forms/number.html",
+                    "/forms/password.html",
+                    "/forms/radiolist.html",
+                    "/forms/range.html",
+                    "/forms/select.html",
+                    "/forms/telephone.html",
+                    "/forms/text.html",
+                    "/forms/textarea.html"
+                ]
+            },
             {
                 title: "Layout",
                 collapsable: true,
