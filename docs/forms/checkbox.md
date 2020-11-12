@@ -1,10 +1,10 @@
 ---
 {
-    "description": "The Kickstand UI checkbox form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability.",
+    "description": "The Kickstand UI checkbox type allows you to select single values for submission in a form.",
     "meta": [
         {
             "property": "og:title",
-            "content": "Text Form Field Component - Kickstand UI"
+            "content": "Checkbox Form Field Component - Kickstand UI"
         },
         {
             "property": "og:image",
@@ -12,7 +12,7 @@
         },
         {
             "property": "og:description",
-            "content": "The Kickstand UI checkbox form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability."
+            "content": "The Kickstand UI checkbox type allows you to select single values for submission in a form."
         },
         {
             "property": "twitter:image:src",

@@ -1,10 +1,10 @@
 ---
 {
-    "description": "The Kickstand UI checkbox form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability.",
+    "description": "The Kickstand UI range form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability.",
     "meta": [
         {
             "property": "og:title",
-            "content": "Text Form Field Component - Kickstand UI"
+            "content": "Range Form Field Component - Kickstand UI"
         },
         {
             "property": "og:image",
@@ -12,7 +12,7 @@
         },
         {
             "property": "og:description",
-            "content": "The Kickstand UI checkbox form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability."
+            "content": "The Kickstand UI range form field is designed to abstract away complexity and provide a consistent user experience as well as some features to improve usability."
         },
         {
             "property": "twitter:image:src",
