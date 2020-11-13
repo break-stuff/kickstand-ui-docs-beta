@@ -30,76 +30,76 @@ With Kickstand UI's border utility classes you can easily control border directi
 
 <div class="my-xl">
     <ks-row class="my-xl">
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-primary">b-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-primary">b-t-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-primary">b-r-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-primary">b-b-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-primary">b-l-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-primary">b-x-primary</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-primary">b-y-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-primary">b-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-primary">b-t-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-primary">b-r-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-primary">b-b-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-primary">b-l-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-primary">b-x-primary</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-primary">b-y-primary</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-secondary">b-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-t-secondary">b-t-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-r-secondary">b-r-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-b-secondary">b-b-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-l-secondary">b-l-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-x-secondary">b-x-secondary</ks-column>
-        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-xxs b-y-secondary">b-y-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-t-xxs b-t-secondary">b-t-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-r-xxs b-r-secondary">b-r-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-b-xxs b-b-secondary">b-b-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-l-xxs b-l-secondary">b-l-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-x-xxs b-x-secondary">b-x-secondary</ks-column>
+        <ks-column class="mr-sm mt-sm ml-xs bg-light-lighter b-y-xxs b-y-secondary">b-y-secondary</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-success">b-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-success">b-t-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-success">b-r-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-success">b-b-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-success">b-l-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-success">b-x-success</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-success">b-y-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-success">b-t-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-success">b-r-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-success">b-b-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-success">b-l-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-success">b-x-success</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-success">b-y-success</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-info">b-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-info">b-t-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-info">b-r-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-info">b-b-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-info">b-l-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-info">b-x-info</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-info">b-y-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-info">b-t-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-info">b-r-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-info">b-b-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-info">b-l-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-info">b-x-info</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-info">b-y-info</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-warning">b-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-warning">b-t-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-warning">b-r-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-warning">b-b-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-warning">b-l-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-warning">b-x-warning</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-warning">b-y-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-warning">b-t-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-warning">b-r-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-warning">b-b-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-warning">b-l-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-warning">b-x-warning</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-warning">b-y-warning</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-danger">b-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-danger">b-t-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-danger">b-r-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-danger">b-b-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-danger">b-l-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-danger">b-x-danger</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-danger">b-y-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-danger">b-t-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-danger">b-r-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-danger">b-b-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-danger">b-l-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-danger">b-x-danger</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-danger">b-y-danger</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-light">b-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-light">b-t-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-light">b-r-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-light">b-b-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-light">b-l-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-light">b-x-light</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-light">b-y-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-light">b-t-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-light">b-r-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-light">b-b-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-light">b-l-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-light">b-x-light</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-light">b-y-light</ks-column>
     </ks-row>
     <ks-row class="my-xl">
         <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-dark">b-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-t-dark">b-t-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-r-dark">b-r-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-b-dark">b-b-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-l-dark">b-l-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-x-dark">b-x-dark</ks-column>
-        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-xxs b-y-dark">b-y-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-t-xxs b-t-dark">b-t-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-r-xxs b-r-dark">b-r-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-b-xxs b-b-dark">b-b-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-l-xxs b-l-dark">b-l-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-x-xxs b-x-dark">b-x-dark</ks-column>
+        <ks-column class="mr-md mt-sm ml-xs bg-light-lighter b-y-xxs b-y-dark">b-y-dark</ks-column>
     </ks-row>
 </div>
 
