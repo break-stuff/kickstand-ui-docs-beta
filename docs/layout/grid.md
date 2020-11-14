@@ -315,7 +315,7 @@ There are two ways to vertically position content within the grid system - on th
 
 ## Gutters
 
-You have the ability to control the width of the gutters. The sizes are based on the [\$spacing-sizes](../design-tokens/spacing.md) values (`none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, and `xxxl`).
+You have the ability to control the width of the gutters. The sizes are based on the [$spacing-sizes](../design-tokens/spacing.md) values (`none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, and `xxxl`).
 
 <div class="my-xl">
     <ks-row gutter="xl">
