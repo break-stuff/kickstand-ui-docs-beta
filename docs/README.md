@@ -36,11 +36,13 @@ If you feel that an improvement can be made to provide a better user experience 
 
 One of the priorities of Kickstand UI is to make creating applications as effortless as possible to developers and content creators while keeping it flexible enough to meet your needs. You should be able to prototype and develop feature-rich applications with very little custom code. However, if you need to customize the framework, you can add custom design tokens and CSS to get the look and feel you are looking for.
 
-<ks-button display="hollow" href="/theming/design-tokens.html">Customize Your Project</ks-button>
+<div class="my-lg text-center">
+    <ks-button display="hollow" href="/design-tokens/design-tokens.html">Customize Your Project</ks-button>
+</div>
 
 ## Browser Support
 
-<div class="display-flex space-around my-lg">
+<div class="display-flex flex-wrap space-around my-lg">
     <img src="/images/browsers/chrome.png" alt="Chrome" title="Chrome" style="width:64px; height:64px;" />
     <img src="/images/browsers/chromium.png" alt="Chromium" title="Chromium" style="width:64px; height:64px;" />
     <img src="/images/browsers/firefox.png" alt="Firefox" title="Firefox" style="width:64px; height:64px;" />
@@ -56,7 +58,7 @@ Supported browsers include **Chrome**, **Chromium-based browsers** (this include
 
 ## Framework Support
 
-<div class="display-flex space-around my-lg">
+<div class="display-flex flex-wrap space-around my-lg">
     <a href="/getting-started/installation.html"><img src="/images/frameworks/HTML5.JPG" alt="HTML5" title="HTML5" style="width:auto; height:80px;" /></a>
     <a href="/getting-started/framework-integrations/vue.html"><img src="/images/frameworks/vuejs.png" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" /></a>
     <a href="/getting-started/framework-integrations/react.html"><img src="/images/frameworks/react.png" alt="React" title="React" style="width:auto; height:80px;" /></a>
@@ -66,4 +68,6 @@ Supported browsers include **Chrome**, **Chromium-based browsers** (this include
 
 Kickstand UI is built with native web components which makes it framework agnostic! You can implement it in any of your projects regardless of the framework you are using.
 
-<ks-button display="hollow" href="/getting-started/installation.html">Add To Your Project</ks-button>
+<div class="my-lg text-center">
+    <ks-button display="hollow" href="/getting-started/installation.html">Add To Your Project</ks-button>
+</div>

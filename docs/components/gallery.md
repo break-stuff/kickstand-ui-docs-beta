@@ -86,7 +86,7 @@ You can control the hading text above the gallery using the `heading` property. 
 
 ## Gutters
 
-The `gutter` property is used to control the distance between the gallery items. The available options consist of `none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, or `xxxl` and correlate with the [spacing design tokens](http://localhost:8080/theming/design-tokens.html#sizes). The default gutter size is `md`.
+The `gutter` property is used to control the distance between the gallery items. The available options consist of `none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, or `xxxl` and correlate with the [spacing design tokens](../design-tokens/spacing.md). The default gutter size is `md`.
 
 ```html
 <ks-gallery gutter="xxl">

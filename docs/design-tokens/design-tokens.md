@@ -39,6 +39,6 @@ Make sure your custom CSS files are loaded after Kickstand UI's style to endure 
 
 ## Documentation
 
-The documentation provided in the `Theming` section will provide you with information on how to use the design tokens for both SASS and CSS. It is _highly_ recommended that you use one or the other in your application. Trying to use both could result in confusion a potential code inconsistencies.
+The documentation provided in this section will provide you with information on how to use the design tokens for both SASS and CSS. It is _highly_ recommended that you use one or the other in your application. Trying to use both could result in confusion a potential code inconsistencies.
 
 Thank you for choosing Kickstand UI and feel free to [reach out](../contact.md)!.

@@ -66,4 +66,6 @@ Kickstand UI was written using [SASS](https://sass-lang.com/) and to take advant
 
 Kickstand UI is built with native web components which makes it framework agnostic! You can implement it in any of your projects regardless of the framework you are using.
 
-<ks-button display="hollow" href="/getting-started/framework-integrations/overview.html">Add To Your Project</ks-button>
+<div class="my-lg text-center">
+    <ks-button display="hollow" href="/getting-started/framework-integrations/overview.html">Add To Your Project</ks-button>
+</div>
