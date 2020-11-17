@@ -12,6 +12,13 @@ module.exports = {
         [
             "meta",
             {
+                "http-equiv": "X-UA-Compatible",
+                content: "IE=edge"
+            }
+        ],
+        [
+            "meta",
+            {
                 property: "og:image",
                 content: "https://kickstand-ui.com/images/kickstand_card.png"
             }
