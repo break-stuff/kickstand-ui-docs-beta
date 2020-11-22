@@ -56,12 +56,22 @@ Kickstand UI was written using [SASS](https://sass-lang.com/) and to take advant
 
 ## Framework Integrations
 
-<div class="display-flex space-around my-lg">
-    <img src="/images/frameworks/HTML5.JPG" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
-    <img src="/images/frameworks/vuejs.png" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" />
-    <img src="/images/frameworks/react.png" alt="React" title="React" style="width:auto; height:80px;" />
-    <img src="/images/frameworks/angular.png" alt="Angular" title="Angular" style="width:auto; height:80px;" />
-    <img src="/images/frameworks/emberjs.png" alt="Ember" title="Ember" style="width:auto; height:80px;" />
+<div class="display-flex flex-wrap space-around my-lg">
+    <a href="/getting-started/installation.html" class="mb-md">
+        <img src="/images/frameworks/HTML5.JPG" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
+    </a>
+    <a href="/getting-started/framework-integrations/vue.html" class="mb-md">
+        <img src="/images/frameworks/vuejs.png" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" />
+    </a>
+    <a href="/getting-started/framework-integrations/react.html" class="mb-md">
+        <img src="/images/frameworks/react.png" alt="React" title="React" style="width:auto; height:80px;" />
+    </a>
+    <a href="/getting-started/framework-integrations/angular.html" class="mb-md">
+        <img src="/images/frameworks/angular.png" alt="Angular" title="Angular" style="width:auto; height:80px;" />
+    </a>
+    <a href="/getting-started/framework-integrations/ember.html" class="mb-md">
+        <img src="/images/frameworks/emberjs.png" alt="Ember" title="Ember" style="width:auto; height:80px;" />
+    </a>
 </div>
 
 Kickstand UI is built with native web components which makes it framework agnostic! You can implement it in any of your projects regardless of the framework you are using.

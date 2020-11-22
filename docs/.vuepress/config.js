@@ -54,6 +54,10 @@ module.exports = {
         logo: "/images/kickstand_logo_2.svg",
         nav: [
             {
+                text: "Documentation",
+                link: "/getting-started/installation.html"
+            },
+            {
                 text: "Contact",
                 link: "/contact.html"
             },
@@ -71,8 +75,8 @@ module.exports = {
                 title: "Getting Started",
                 collapsable: true,
                 children: [
-                    "./getting-started/introduction.html",
                     "./getting-started/installation.html",
+                    "./getting-started/introduction.html",
                     "./getting-started/how-to-use.html",
                     {
                         title: "Framework Integrations",
