@@ -27,11 +27,19 @@ There are two ways to customize your design tokens:
 
 ### SASS
 
-It is highly recommended that you take advantage of the SASS tooling that is provided as part of the Kickstand UI framework. They are designed to make updating and maintain your system easy and efficient. Feel free to <a href="/downloads/_variables.scss" download>download the variables template</a> and add to your application to begin customizing your application.
+It is highly recommended that you take advantage of the SASS tooling that is provided as part of the Kickstand UI framework. They are designed to make updating and maintain your system easy and efficient. Feel free to download the variables template and add to your application to begin customizing your application.
+
+<div class="text-center mt-xl">
+    <ks-button href="/downloads/_variables.scss" display="hollow" download>Download SASS Variables Template</ks-button>
+</div>
 
 ### CSS
 
-Not everyone is in a position to or likes the idea of using a preprocessor for compiling their styles. If you are planning on using the precompiled styles, it is still very easy to customize the design system to meet your needs. All of the design tokens are converted to CSS variables so you can updated them in a central place and have it globally update your application. You can <a href="/downloads/variables.css" download>download the variables template</a> and add it to your project.
+Not everyone is in a position to or likes the idea of using a preprocessor for compiling their styles. If you are planning on using the precompiled styles, it is still very easy to customize the design system to meet your needs. All of the design tokens are converted to CSS variables so you can updated them in a central place and have it globally update your application. You can download the variables template and add it to your project.
+
+<div class="text-center my-xl">
+    <ks-button href="/downloads/variables.css" display="hollow" download>Download CSS Variables Template</ks-button>
+</div>
 
 :::tip NOTE
 Make sure your custom CSS files are loaded after Kickstand UI's style to endure that they are appropriately rendered.
