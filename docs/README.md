@@ -7,15 +7,17 @@ tagline:
 # actionLink: /guide/
 footer: Kickstand UI | MIT Licensed
 ---
-<div class="display-flex flex-column align-center justify-center bg-light-light full-width py-xxl mb-xxxl px-lg">
-    <div class="text-primary text-center">
+<div class="home-hero display-flex flex-column align-center justify-center bg-light-light full-width py-xxl mb-xxxl px-lg">
+    <div class="text-light-lighter text-center">
         <h1 class="text-xxl mb-xs">Kickstand UI</h1>
         <h2 class="border-none text-md text-bolder text-md">The Design System You Can Use <em><u>Everywhere</u></em>!</h2>
     </div>
-    <h3 class="text-xxl text-dark-light text-lighter md:text-lg sm:text-md text-center mt-lg mb-xxl w-60 md:w-80 sm:w-90 text-center mx-auto" style="line-height: 1.2;">Built with web components so you can quickly <span class="b-b-xxxs b-b-primary">build</span>, <span class="b-b-xxxs b-b-primary">customize</span>, and <span class="b-b-xxxs b-b-primary">scale</span> <i>accessible</i> applications anywhere!</h3>
+    <h3 class="text-xxl text-light-lighter md:text-lg sm:text-md text-center mt-lg mb-xxl w-60 md:w-80 sm:w-90 text-center mx-auto" style="line-height: 1.2; font-weight: 200;">
+        Building scalable applications that <em class="b-b-xxxs b-b-light-lighter">everyone</em> can use should be easy!
+    </h3>
     <div class="text-center my-xl">
-        <ks-button size="lg" class="mr-xl" href="/getting-started/installation.html">Get Started <ks-icon icon="arrow_right"></ks-icon></ks-button>
-        <ks-button size="lg" display="hollow" href="https://github.com/break-stuff/kickstand-ui"><ks-icon icon="github"></ks-icon> GitHub</ks-button>
+        <ks-button size="lg" display="hollow" class="mr-xl" color="light" css-class="text-light-lighter" href="https://github.com/break-stuff/kickstand-ui"><ks-icon icon="github"></ks-icon> GitHub</ks-button>
+        <ks-button size="lg" color="light" href="/getting-started/installation.html">Get Started <ks-icon icon="arrow_right"></ks-icon></ks-button>
     </div>
 </div>
 
@@ -38,7 +40,7 @@ Kickstand UI is built using web components, so no additional JavaScript framewor
 As you use components throughout your application, the HTML, JavaScript, and CSS will only be loaded when it is used, so you only load what you need.
 
 <p class="text-center my-xxl">
-    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto shadow-sm mb-sm" src="/images/screen_shots/performance.png" alt="Kickstand UI's Lighthouse score" />
+    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto b-xxxs mb-sm" src="/images/screen_shots/performance.png" alt="Kickstand UI's Lighthouse score" />
     <br>
     <em>(These are the <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> scores for this site!)</em>
 </p>
