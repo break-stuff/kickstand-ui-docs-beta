@@ -125,7 +125,6 @@ module.exports = {
                     "/components/responsive-embed.html",
                     "/components/side-drawer.html",
                     "/components/switch.html",
-                    // "/components/spin-box.html",
                     "/components/tabs.html",
                     "/components/tooltip.html"
                 ]
@@ -148,6 +147,7 @@ module.exports = {
                     "/forms/radiolist.html",
                     "/forms/range.html",
                     "/forms/select.html",
+                    "/forms/spin-box.html",
                     "/forms/telephone.html",
                     "/forms/text.html",
                     "/forms/textarea.html"
