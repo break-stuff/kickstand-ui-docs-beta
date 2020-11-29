@@ -100,6 +100,44 @@ The `display` is set to `inline-flex`, you you can use the [flex layout utility 
 </ks-button-bar>
 ```
 
+## Split Buttons
+
+You can combine a button and a [dropdown](./dropdown.md) to create a split button.
+
+<div class="my-xl">
+    <ks-button-bar>
+        <ks-button class="b-r-xxs">Normal Button</ks-button>
+        <ks-dropdown text="Expand Menu" position="right" hide-text>
+            <ks-dropdown-item>
+                <a href="#">Dropdown Item 1</a>
+            </ks-dropdown-item>
+            <ks-dropdown-item>
+                <a href="#">Dropdown Item 2</a>
+            </ks-dropdown-item>
+            <ks-dropdown-item>
+                <a href="#">Dropdown Item 3</a>
+            </ks-dropdown-item>
+        </ks-dropdown>
+    </ks-button-bar>
+</div>
+
+```html
+<ks-button-bar>
+    <ks-button class="b-r-xxs">Normal Button</ks-button>
+    <ks-dropdown text="Expand Menu" position="right" hide-text>
+        <ks-dropdown-item>
+            <a href="#">Dropdown Item 1</a>
+        </ks-dropdown-item>
+        <ks-dropdown-item>
+            <a href="#">Dropdown Item 2</a>
+        </ks-dropdown-item>
+        <ks-dropdown-item>
+            <a href="#">Dropdown Item 3</a>
+        </ks-dropdown-item>
+    </ks-dropdown>
+</ks-button-bar>
+```
+
 ## Properties
 
 | Property  | Attribute | Description | Type      | Default |
