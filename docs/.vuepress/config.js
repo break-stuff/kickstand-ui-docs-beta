@@ -111,6 +111,7 @@ module.exports = {
                     "/components/badge.html",
                     "/components/breadcrumbs.html",
                     "/components/button.html",
+                    "/components/button-bar.html",
                     "/components/card.html",
                     "/components/carousel.html",
                     "/components/dropdown.html",

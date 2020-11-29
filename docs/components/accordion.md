@@ -24,7 +24,7 @@
 
 # Accordion
 
-Accordions are used to group and toggle (expand/collapse) sections of content
+Accordions are used to group and toggle (expand/collapse) sections of related content.
 
 <div class="my-lg">
     <ks-accordion>
