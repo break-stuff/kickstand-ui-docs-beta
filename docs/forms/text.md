@@ -22,7 +22,7 @@
 }
 ---
 
-# Text Form Field
+# Text
 
 The `text` input type is the default for the form field component.
 

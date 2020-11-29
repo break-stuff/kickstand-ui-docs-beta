@@ -4,7 +4,7 @@
     "meta": [
         {
             "property": "og:title",
-            "content": "Text Form Field Component - Kickstand UI"
+            "content": "Date Form Field Component - Kickstand UI"
         },
         {
             "property": "og:image",
@@ -22,9 +22,13 @@
 }
 ---
 
-# Date Pickers
+# Date and Time
 
-Kickstand UI's date pickers are native HTML input types.
+Kickstand UI's date and time input fields are native HTML input types.
+
+:::tip Note
+The "date" input types (`date`, `month`, `week`, `time`, etc.) do not have great [browser coverage](https://caniuse.com/#feat=input-datetime). If a browser does not provide support for the specific input type, it will be displayed as `text` input field. Please make sure to test to ensure you have the desired user experience.
+:::
 
 <div class="my-xl">
     <ks-form-field type="date" label="Choose your birthday" />
@@ -63,10 +67,6 @@ Kickstand UI's date pickers are native HTML input types.
 ```html
 <ks-form-field type="time" label="What time is it?" />
 ```
-
-:::warning
-The "date" input types (`date`, `month`, `week`, `time`, etc.) do not have great [browser coverage](https://caniuse.com/#feat=input-datetime). If a browser does not provide support for the specific input type, it will be displayed as `text` input field. There are also polyfills available, to provide consistency across browsers. Please make sure to test to ensure you have the desired user experience.
-:::
 
 ## Usage
 
