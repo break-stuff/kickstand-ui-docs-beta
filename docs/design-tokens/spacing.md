@@ -56,7 +56,7 @@ $spacing-sizes: (
     lg: 1rem,        // 16px
     xl: 1.25rem,     // 20px
     xxl: 1.5rem,     // 24px
-    xxxl: 2rem       // 32px,
+    xxxl: 2rem       // 32px
 );
 ```
 
