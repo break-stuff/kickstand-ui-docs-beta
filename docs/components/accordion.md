@@ -80,8 +80,7 @@ Accordions are used to group and toggle (expand/collapse) sections of related co
 
 ## Toggle Slide
 
-<br />
-Rather than expanding and collapsing the slide by setting the `expanded` property, you can use the `toggleSlide()`method.
+Rather than expanding and collapsing the slide by setting the `expanded` property, you can use the `toggleSlide()` method.
 
 ```html
 <ks-accordion>
