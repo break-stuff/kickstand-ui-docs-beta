@@ -13,11 +13,15 @@ footer: Kickstand UI | MIT Licensed
         <h2 class="border-none text-md text-bolder text-md">The Design System You Can Use <em><u>Everywhere</u></em>!</h2>
     </div>
     <h3 class="text-xxl text-light-lighter md:text-lg sm:text-md text-center mt-lg mb-xxl w-60 md:w-80 sm:w-90 text-center mx-auto" style="line-height: 1.2; font-weight: 200;">
-        Building scalable applications that <em class="b-b-xxxs b-b-light-lighter">everyone</em> can use should be easy!
+        Tools to help you build applications <em class="b-b-xxxs b-b-light-lighter">everyone</em> can love!
     </h3>
     <div class="text-center my-xl">
-        <ks-button size="lg" display="hollow" class="mr-xl" color="light" css-class="text-light-lighter" href="https://github.com/break-stuff/kickstand-ui"><ks-icon icon="github"></ks-icon> GitHub</ks-button>
-        <ks-button size="lg" color="light" href="/getting-started/installation.html">Get Started <ks-icon icon="arrow_right"></ks-icon></ks-button>
+        <ks-button size="lg" display="hollow" class="mr-xl" color="light" css-class="text-light-lighter" href="https://github.com/break-stuff/kickstand-ui">
+            <ks-icon icon="github" class="mr-sm"></ks-icon> GitHub
+        </ks-button>
+        <ks-button size="lg" color="light" href="/getting-started/installation.html">
+            Start Building <ks-icon icon="arrow_right" class="ml-xs"></ks-icon>
+        </ks-button>
     </div>
 </div>
 
@@ -31,6 +35,18 @@ Installing Kickstand UI is as easy as adding a few tags to your page.
 <script nomodule src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.js"></script>
 ```
 
+Now you can start adding components to your project!
+
+```html
+<ks-button shows="test_modal">My Button</ks-button>
+<ks-modal id="test_modal" modal-title="Test Modal">Hello Kickstand UI!</ks-modal>
+```
+
+<div class="my-xl">
+    <ks-button shows="test_modal">My Button</ks-button>
+    <ks-modal id="test_modal" modal-title="Test Modal">Hello Kickstand UI!</ks-modal>
+</div>
+
 Check out our [documentation](/getting-started/installation.html) for more in-depth instructions on adding it to your project.
 
 ## _Extremely_ Performant
@@ -40,9 +56,9 @@ Kickstand UI is built using web components, so no additional JavaScript framewor
 As you use components throughout your application, the HTML, JavaScript, and CSS will only be loaded when it is used, so you only load what you need.
 
 <p class="text-center my-xxl">
-    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto b-xxxs mb-sm" src="/images/screen_shots/performance.png" alt="Kickstand UI's Lighthouse score" />
-    <br>
     <em>(These are the <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> scores for this site!)</em>
+    <br>
+    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto b-xxxs mb-sm" src="/images/screen_shots/performance.png" alt="Kickstand UI's Lighthouse score" />
 </p>
 
 ## User Experience (UX) and Accessibility
