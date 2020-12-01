@@ -132,31 +132,9 @@ The `solid` display option will automatically select and appropriate contrasting
     })();
 </script>
 ```
-**Note:** If a button is loading, it is also disabled.
-
-## Icons
-
-<ks-button icon="info" class="mt-xxl">Button With An Icon</ks-button>
-
-```html
-<ks-button icon="info">Button With An Icon</ks-button>
-```
-
-### Direction
-
-<ks-button icon="info" icon-direction="right" class="mt-xxl">Button With An Icon</ks-button>
-
-```html
-<ks-button icon="info" icon-direction="right">Button With An Icon</ks-button>
-```
-
-### Hide Text
-
-<ks-button icon="info" hide-text class="mt-xxl">Button With An Icon</ks-button>
-
-```html
-<ks-button icon="info" hide-text>Button With An Icon</ks-button>
-```
+:::tip Note
+If a button is loading, it is also disabled.
+:::
 
 ## HREF
 
