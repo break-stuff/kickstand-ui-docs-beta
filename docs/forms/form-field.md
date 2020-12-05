@@ -28,17 +28,36 @@ Forms are some of the most complex user interactions in modern application devel
 
 One of the primary goals of Kickstand UI is to take advantage of native browser functionality as often as possible, so the `<ks-form-field>` component leverages HTML5 input elements and validation to reduce code size increase functionality.
 
+Below is a diagram of the various parts of the Kickstand UI Form Field component. The documentation below will go into each feature in more detail.
+
+<div class="w-70 md:w-100 mx-auto">
+    <img src="/images/screen_shots/input_anatomy.png" alt="anatomy of the Kickstand UI Form Field" />
+</div>
+
 ## Label
 
-The `label` property is pretty straight forward in that it provides the label for your form field. Every form field _must_ have a label and `placeholder` text is not a suitable replacement for a label.
+The `label` property provides the label for your form field. This property is also used to create the name of the input field if one is not specified (the label will be converted to `kebab-case` as a default naming convention).
+
+:::warning WARNING
+Every form field _must_ have a label for usability purposes and `placeholder` text is not a suitable replacement for a label.
+:::
 
 ## Help Text
 
-The `help-text` is additional information provided for the user to increase input accuracy. Developers have commonly used `placeholder` text for this information in the past, but this results in some usability issues such as the loss of that information when a value is input into the field. Also, to improve usability, the help text is displayed above the form field and is actually part of the `<label>`.
+The `help-text` is additional information provided for the user to increase input accuracy. Developers have commonly used `placeholder` text for this information in the past, but this results in some usability issues which include:
 
-::: tip Note
-Clicking a label automatically sets the focus on associated input field, so having your help text as part of your label provides a larger target to interact with the form field - especially for touch-enabled devices. Having the text above the form field also means that it won't be covered up on mobile devices when the keyboard is displayed.
-:::
+- the loss of that information when a value is input into the field
+- accessibility issues with color contrast
+- overflow text is hidden on smaller screen resolutions
+- if users mistake the placeholder as an input value it can create a false sense of completion
+
+### Usability
+
+To improve usability, the help text is displayed above the form field and is actually part of the `<label>`. By doing this:
+
+- Assistive technologies will read the help text with the label
+- On-screen keyboards will not cover up help text that may appear below the input field
+- Clicking a label automatically sets the focus on associated input field, so having your help text as part of your label provides a larger target to interact with the form field – especially for touch-enabled devices
 
 <div class="my-xl">
     <ks-form-field
@@ -77,6 +96,47 @@ If you need to provide the user with additional information that may not need to
     tooltip-text="Used for password recovery">
 </ks-form-field>
 ```
+
+## Input Icon
+
+To improve usability, icons can be added to your input specifying an [icon name](./../components/icons.md) in the `icon` property.
+
+<div class="my-xl">
+    <ks-form-field
+        label="Email"
+        type="email"
+        icon="email"
+        />
+</div>
+
+```html
+<ks-form-field
+    label="Email"
+    type="email"
+    icon="email">
+</ks-form-field>
+```
+
+You can also adjust the location of the icon using the `icon-direction` property. The options are `"left"` and `"right"` and the default value is `"right"`.
+
+<div class="my-xl">
+    <ks-form-field
+        label="Email"
+        type="email"
+        icon="email"
+        icon-direction="left"
+        />
+</div>
+
+```html
+<ks-form-field
+    label="Email"
+    type="email"
+    icon="email"
+    icon-direction="left">
+</ks-form-field>
+```
+
 
 ## Error Messages
 
@@ -168,9 +228,9 @@ Kickstand UI's components use one-way data binding so that data flows in a singl
 </script>
 ```
 
-:::tip
+### Using Javascript Frameworks
+
 Many JavaScript frameworks come with built-in event handling to help simplify your code.
-:::
 
 #### Vue.js
 
@@ -275,7 +335,7 @@ Accessibility was paramount when the Form Field component was designed. Most of 
 These features include:
 
 - Inputs all use IDs, names, and labels.
-- Labels are associated to with inputs using the `for` attribute.
+- Labels are explicitly associated to with inputs using the `for` attribute.
 - Labels, Help Text, and Error Messages all display above the input to prevent the on-screen keyboard from blocking important text.
 - Error messages use `role="alert"` with the `aria-live="assertive"` to announce when validation errors occur
 - Error messages are accompanied with an icon to help users who cannot distinguish the error message based on color.
@@ -314,6 +374,8 @@ These features include:
 | `typeErrorMessage`      | `type-error-message`      | the error message that will display if the value does not match the input `type`            | `string`                                                                                          | `Your value must be a valid {type}.` |
 | `value`                 | `value`                   | the input value            | `number` or `string`                                                                                              | `''`         |
 | `validateOnInput`       | `validate-on-input`       | toggles the validation timing at time of input            | `boolean`                                                                                                                                 | `false`                                                                                 |
+| `icon`                 | `icon`                   | icon displayed in the input field            | `string`                                                                                              | `undefined`         |
+| `iconDirection`       | `icon-direction`       | determines the position of the icon            | `"left"` or `"right"`                                                                                                                                 | `"right"`                                                                                 |
 
 ## Events
 
