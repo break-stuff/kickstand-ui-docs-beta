@@ -82,13 +82,13 @@ One of the priorities of Kickstand UI is to make creating applications as effort
 ## Browser Support
 
 <div class="display-flex flex-wrap space-around my-lg">
-    <img src="/images/browsers/chrome.png" alt="Chrome" title="Chrome" style="width:64px; height:64px;" />
-    <img src="/images/browsers/chromium_logo.svg" alt="Chromium" title="Chromium" style="width:64px; height:64px;" />
-    <img src="/images/browsers/firefox-logo.svg" alt="Firefox" title="Firefox" style="width:64px; height:64px;" />
-    <img src="/images/browsers/safari.svg" alt="Safari" title="Safari" style="width:64px; height:64px;" />
-    <img src="/images/browsers/opera.png" alt="Opera" title="Opera" style="width:64px; height:64px;" />
-    <img src="/images/browsers/edge.svg" alt="Edge" title="Edge" style="width:auto; height:64px;" />
-    <img src="/images/browsers/internet_explorer.png" alt="Internet Explorer 11" title="Internet Explorer 11" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/chrome.png" alt="Chrome" title="Chrome" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/chromium_logo.svg" alt="Chromium" title="Chromium" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/firefox-logo.svg" alt="Firefox" title="Firefox" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/safari.svg" alt="Safari" title="Safari" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/opera.png" alt="Opera" title="Opera" style="width:64px; height:64px;" />
+    <ks-img lazy src="/images/browsers/edge.svg" alt="Edge" title="Edge" style="width:auto; height:64px;" />
+    <ks-img lazy src="/images/browsers/internet_explorer.png" alt="Internet Explorer 11" title="Internet Explorer 11" style="width:64px; height:64px;" />
 </div>
 
 All of Kickstand UI's components are built using standards-based [web components](https://www.webcomponents.org/introduction). Browser support has greatly improved over the years. For features that are not fully supported, polyfills have been added (which will be included as-needed) to provide a great experience no matter what browser you are using.
@@ -99,19 +99,19 @@ Supported browsers include **Chrome**, **Chromium-based browsers** (this include
 
 <div class="display-flex flex-wrap space-around my-lg">
     <a href="/getting-started/installation.html" class="mb-md">
-        <img src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/vue.html" class="mb-md">
-        <img src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" class="p-sm" />
+        <ks-img lazy src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" class="p-sm" />
     </a>
     <a href="/getting-started/framework-integrations/react.html" class="mb-md">
-        <img src="/images/frameworks/react.svg" alt="React" title="React" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/react.svg" alt="React" title="React" style="width:auto; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/angular.html" class="mb-md">
-        <img src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:auto; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/ember.html" class="mb-md">
-        <img src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:auto; height:80px;" class="pt-sm" />
+        <ks-img lazy src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:auto; height:80px;" class="pt-sm" />
     </a>
 </div>
 
