@@ -55,8 +55,9 @@ To collect form data easily, a custom event emitter has been added to provide fi
     isValid: false,
     formFieldData: [
         {
-            isValid: false,
             name: "name",
+            value: "",
+            isValid: false,
             validity: {
                 badInput: false,
                 customError: false,
@@ -69,12 +70,12 @@ To collect form data easily, a custom event emitter has been added to provide fi
                 typeMismatch: false,
                 valid: false,
                 valueMissing: true
-            },
-            value: ""
+            }
         },
         {
-            isValid: false,
             name: "email",
+            value: "bad.email",
+            isValid: false,
             validity: {
                 badInput: false,
                 customError: false,
@@ -88,7 +89,6 @@ To collect form data easily, a custom event emitter has been added to provide fi
                 valid: false,
                 valueMissing: false
             },
-            value: "bad.email"
         }
     ]
 }

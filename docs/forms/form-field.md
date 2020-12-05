@@ -250,6 +250,8 @@ Event details emit much more that just the value. If you take a look, you will s
 
 ```json
 {
+    name: "email",
+    value: "michael.scott@dundermifflin.com",
     isValid: true,
     validity: {
         badInput: false
@@ -263,8 +265,7 @@ Event details emit much more that just the value. If you take a look, you will s
         typeMismatch: false
         valid: true
         valueMissing: false
-    },
-    value: ""
+    }
 }
 ```
 
