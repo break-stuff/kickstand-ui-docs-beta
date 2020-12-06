@@ -40,13 +40,13 @@ Adding Kickstand UI to your project is as easy as adding a few tags to your proj
 Now you have access to the tools and can start adding components to your project!
 
 ```html
-<ks-button shows="test_modal">My Button</ks-button>
-<ks-modal id="test_modal" modal-title="Test Modal">Hello Kickstand UI!</ks-modal>
+<ks-button shows="test_modal">Show Modal</ks-button>
+<ks-modal id="test_modal" modal-title="Kickstand UI">A modal with just 2 lines of code!</ks-modal>
 ```
 
 <div class="my-xl">
-    <ks-button shows="test_modal">My Button</ks-button>
-    <ks-modal id="test_modal" modal-title="Test Modal">Hello Kickstand UI!</ks-modal>
+    <ks-button shows="test_modal">Show Modal</ks-button>
+    <ks-modal id="test_modal" modal-title="Kickstand UI">A modal with just 2 lines of code!</ks-modal>
 </div>
 
 Check out our [documentation](/getting-started/installation.html) for more in-depth instructions on adding it to your project.
