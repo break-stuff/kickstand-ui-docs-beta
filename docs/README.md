@@ -27,7 +27,7 @@ footer: Kickstand UI | MIT Licensed
 
 ## Quick Start
 
-Installing Kickstand UI is as easy as adding a few tags to your page.
+Adding Kickstand UI to your project is as easy as adding a few tags to your project.
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.css" />
@@ -35,7 +35,9 @@ Installing Kickstand UI is as easy as adding a few tags to your page.
 <script nomodule src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.js"></script>
 ```
 
-Now you can start adding components to your project!
+### Start Using
+
+Now you have access to the tools and can start adding components to your project!
 
 ```html
 <ks-button shows="test_modal">My Button</ks-button>
@@ -58,7 +60,7 @@ As you use components throughout your application, the HTML, JavaScript, and CSS
 <p class="text-center my-xxl">
     <em>(These are the <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> scores for this site!)</em>
     <br>
-    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto b-xxxs mb-sm" src="/images/screen_shots/performance-min.png" alt="Kickstand UI's Lighthouse score" />
+    <ks-img class="w-50 md:w-60 xs:w-100 mx-auto b-xxxs mb-sm" src="/images/screen_shots/performance-min.png" alt="Kickstand UI's Lighthouse score" lazy />
 </p>
 
 ## User Experience (UX) and Accessibility
@@ -87,7 +89,7 @@ One of the priorities of Kickstand UI is to make creating applications as effort
     <ks-img lazy src="/images/browsers/firefox-logo.svg" alt="Firefox" title="Firefox" style="width:64px; height:64px;" />
     <ks-img lazy src="/images/browsers/safari.svg" alt="Safari" title="Safari" style="width:64px; height:64px;" />
     <ks-img lazy src="/images/browsers/opera.png" alt="Opera" title="Opera" style="width:64px; height:64px;" />
-    <ks-img lazy src="/images/browsers/edge.svg" alt="Edge" title="Edge" style="width:auto; height:64px;" />
+    <ks-img lazy src="/images/browsers/edge.svg" alt="Edge" title="Edge" style="width:64px; height:64px;" />
     <ks-img lazy src="/images/browsers/internet_explorer.png" alt="Internet Explorer 11" title="Internet Explorer 11" style="width:64px; height:64px;" />
 </div>
 
@@ -97,21 +99,21 @@ Supported browsers include **Chrome**, **Chromium-based browsers** (this include
 
 ## Framework Support
 
-<div class="display-flex flex-wrap space-around my-lg">
+<div class="display-flex flex-wrap align-center space-around my-lg">
     <a href="/getting-started/installation.html" class="mb-md">
-        <ks-img lazy src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:80px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/vue.html" class="mb-md">
-        <ks-img lazy src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" class="p-sm" />
+        <ks-img lazy src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:100px; height:80px;" class="p-md" />
     </a>
     <a href="/getting-started/framework-integrations/react.html" class="mb-md">
-        <ks-img lazy src="/images/frameworks/react.svg" alt="React" title="React" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/react.svg" alt="React" title="React" style="width:120px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/angular.html" class="mb-md">
-        <ks-img lazy src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:80px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/ember.html" class="mb-md">
-        <ks-img lazy src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:auto; height:80px;" class="pt-sm" />
+        <ks-img lazy src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:100px; height:80px;" class="pt-xl" />
     </a>
 </div>
 
