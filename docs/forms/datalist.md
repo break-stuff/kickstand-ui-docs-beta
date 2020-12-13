@@ -47,7 +47,7 @@ To create a list of available options, wrap the values in the `<option>` tag and
 ```html
 <ks-form-field
     label="Email"
-    type="datalist"
+    type="email"
     datalist
     >
     <option>michael.scott@dundermifflin.com</option>
