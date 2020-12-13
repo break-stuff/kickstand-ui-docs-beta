@@ -30,10 +30,18 @@ footer: Kickstand UI | MIT Licensed
 Adding Kickstand UI to your project is as easy as adding a few tags to your project.
 
 ```html
+<!-- global styles and utility classes -->
 <link rel="stylesheet" href="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.css" />
+
+<!-- scripts for browsers that support ES modules -->
 <script type="module" src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.esm.js"></script>
+<!-- scripts for browsers that do not support ES modules (legacy browsers) -->
 <script nomodule src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.js"></script>
 ```
+
+:::tip NOTE
+For the best user experience, be sure to include both `script` tags.
+:::
 
 ### Start Using
 

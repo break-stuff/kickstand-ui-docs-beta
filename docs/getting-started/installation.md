@@ -22,10 +22,18 @@
 Installing Kickstand UI is as easy as adding a few tags to your page.
 
 ```html
+<!-- global styles and utility classes -->
 <link rel="stylesheet" href="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.css" />
+
+<!-- scripts for browsers that support ES modules -->
 <script type="module" src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.esm.js"></script>
+<!-- scripts for browsers that do not support ES modules (legacy browsers) -->
 <script nomodule src="https://unpkg.com/kickstand-ui@beta/dist/kickstand-ui/kickstand-ui.js"></script>
 ```
+
+:::tip NOTE
+For the best user experience, be sure to include both `script` tags.
+:::
 
 ## Package Manager
 
@@ -52,25 +60,25 @@ applyPolyfills().then(() => {
 
 ### Styles
 
-Kickstand UI was written using [SASS](https://sass-lang.com/) and to take advantage of all of the built-in tooling and customization capabilities you should plan on using it in your project. You can import them into your project from `kickstand-ui/src/scss/styles.scss`. If not you can always use the compiled CSS located in `kickstand-ui/dist/kickstand-ui/kickstand-ui.css`.
+Kickstand UI was written using [SASS](https://sass-lang.com/). Using SASS is not required to use and customize Kickstand UI for your needs, but we have created some great [SASS tools](../../design-tokens/design-tokens.md) to really accelerate the development process. You can import them into your project from `kickstand-ui/src/scss/styles.scss`. If not you can always use the compiled CSS located in `kickstand-ui/dist/kickstand-ui/kickstand-ui.css`.
 
 ## Framework Integrations
 
-<div class="display-flex flex-wrap space-around my-lg">
+<div class="display-flex flex-wrap align-center space-around my-lg">
     <a href="/getting-started/installation.html" class="mb-md">
-        <img src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/HTML5.svg" alt="HTML5" title="HTML5" style="width:80px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/vue.html" class="mb-md">
-        <img src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:auto; height:80px;" class="p-sm" />
+        <ks-img lazy src="/images/frameworks/vuejs.svg" alt="Vuejs" title="Vuejs" style="width:100px; height:80px;" class="p-md" />
     </a>
     <a href="/getting-started/framework-integrations/react.html" class="mb-md">
-        <img src="/images/frameworks/react.svg" alt="React" title="React" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/react.svg" alt="React" title="React" style="width:120px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/angular.html" class="mb-md">
-        <img src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:auto; height:80px;" />
+        <ks-img lazy src="/images/frameworks/angular.svg" alt="Angular" title="Angular" style="width:80px; height:80px;" />
     </a>
     <a href="/getting-started/framework-integrations/ember.html" class="mb-md">
-        <img src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:auto; height:80px;" class="pt-sm" />
+        <ks-img lazy src="/images/frameworks/ember.svg" alt="Ember" title="Ember" style="width:100px; height:80px;" class="pt-xl" />
     </a>
 </div>
 
