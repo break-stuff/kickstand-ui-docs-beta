@@ -111,12 +111,12 @@ The mixin can accept additional parameters in order to override the default sett
 
 Name | Type | Default Value | Description
 -- | -- | -- | --
-style | string | `$border-style` | Determines the style of the borer - (`solid`, `dashed`, etc.)
-size | string | `$border-size` | The width of the border - (`xs`, `sm`, `md`, etc.)
-color | string | `$border-color` | The base color of the border - (`primary`, `dark`, `light`, etc.)
-variant | string | `base` (if not defined in `$border-color`) | This variation of the border color - (`lighter`, `light`, `darker`, etc.)
-opacity | decimal | `1` (if not defined in `$border-color`) | The opacity of the color - (a number between 0 and 1)
-important | bool | false | determines whether or not the `!important` property is added to the css rule
+$style | string | `$border-style` | Determines the style of the borer - (`solid`, `dashed`, etc.)
+$size | string | `$border-size` | The width of the border - (`xs`, `sm`, `md`, etc.)
+$color | string | `$border-color` | The base color of the border - (`primary`, `dark`, `light`, etc.)
+$variant | string | `base` (if not defined in `$border-color`) | This variation of the border color - (`lighter`, `light`, `darker`, etc.)
+$opacity | decimal | `1` (if not defined in `$border-color`) | The opacity of the color - (a number between 0 and 1)
+$important | bool | false | determines whether or not the `!important` property is added to the css rule
 
 ### Example
 

@@ -92,8 +92,8 @@ See how the two compare when they are be added to a _square_ rather than a _rect
 
 Name | Type | Default Value | Description
 -- | -- | -- | --
-size | string | required | the size of the border radius based on the `border-radiuses` values defined in the `variables` file
-important | bool | false | determines whether or not the `!important` property is added to the css rule
+$size | string | required | the size of the border radius based on the `border-radiuses` values defined in the `variables` file
+$important | bool | false | determines whether or not the `!important` property is added to the css rule
 
 #### `!important`
 
