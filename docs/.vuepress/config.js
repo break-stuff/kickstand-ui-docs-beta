@@ -147,6 +147,7 @@ module.exports = {
                     "/forms/password.html",
                     "/forms/radiolist.html",
                     "/forms/range.html",
+                    "/forms/search.html",
                     "/forms/select.html",
                     "/forms/spin-box.html",
                     "/forms/telephone.html",
@@ -229,7 +230,8 @@ module.exports = {
                         path: "/design-tokens/z-index.html"
                     },
                 ]
-            }
+            },
+            'changelog.html'
         ]
     },
     plugins: [
