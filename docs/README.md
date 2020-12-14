@@ -103,7 +103,15 @@ One of the priorities of Kickstand UI is to make creating applications as effort
 
 All of Kickstand UI's components are built using standards-based [web components](https://www.webcomponents.org/introduction). Browser support has greatly improved over the years. For features that are not fully supported, polyfills have been added (which will be included as-needed) to provide a great experience no matter what browser you are using.
 
-Supported browsers include **Chrome**, **Chromium-based browsers** (this includes browsers like _Brave_, the new _Microsoft Edge_, and _Vivaldi_), **Firefox**, **Safari**, **Opera**, **Microsoft Edge** (legacy), and **Internet Explorer 11**.
+Supported browsers include:
+
+- **Chrome**
+- **Chromium-based browsers** (this includes browsers like _Brave_, the new _Microsoft Edge_, and _Vivaldi_)
+- **Firefox**
+- **Safari**
+- **Opera**
+- **Microsoft Edge** (legacy)
+- **Internet Explorer 11**
 
 ## Framework Support
 
